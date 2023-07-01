@@ -6,6 +6,6 @@ const tradeSchema = new mongoose.Schema({
     userId: String,
 });
 
-const TradeModel = mongoose.model('Trade', tradeSchema);
+const Trade = mongoose.model('Trade', tradeSchema);
 
-module.exports = TradeModel;
+module.exports = Trade;
