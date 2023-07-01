@@ -7,4 +7,4 @@ router.delete("/:id", tradeController.deleteTrade);
 router.put("/:id", tradeController.updateTrade);
 router.get("/:userId", tradeController.getAllUserTrades);
 
-module.exports = router;
+module.exports = router; 
