@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./login";
 import Signup from "./signup";
 import Profile from "./profile";
-import TradingLog from "./tradinglog";
 
 function App() {
 
@@ -12,7 +11,6 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Login />} />
-            <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
