@@ -4,13 +4,12 @@ a {
 }
 
 .trading-log {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .trade-item {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 5px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.trade-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
